@@ -48,15 +48,17 @@
 						<!--неразрывный пробел--> в&nbsp;компании с мировым именем и
 						работайте<br>по свободному графику
 					</p>
-					<!--группа для поиска-->
-					<div class="input-group d-flex">
-						<input class="input" type="text" placeholder="Начните поиск">
-						<!--кнопка-->
-						<button class="button button-primary">
-							<img class="button-icon" src="img/search.svg" alt="search">
-							<span class="button-text">Искать вакансии</span>
-						</button>
-					</div>
+					<!--форма для поиска-->
+					<form class="hero-form action" action="#">
+						<div class="input-group d-flex">
+							<input class="input" type="text" placeholder="Начните поиск">
+							<!--кнопка-->
+							<button class="button button-primary">
+								<img class="button-icon" src="img/search.svg" alt="search">
+								<span class="button-text">Искать вакансии</span>
+							</button>
+						</div>
+					</form>
 					<!-- тег группа -->
 					<div class="tags-group">
 						<span class="tegs-label">Например</span>
@@ -72,7 +74,6 @@
 			</div>
 		</div>
 	</header>
-
 	<!--секция 1 (карточки)-->
 	<section class="section">
 		<div class="container">
@@ -126,9 +127,144 @@
 				</div>
 			</div>
 		</div>
-
-
 	</section>
+
+
+	<!--секция 2 (вакансии)-->
+	<section class="section offers">
+		<div class="container">
+			<h2 class="section-title">Свежие вакансии</h2>
+			<div class="offer d-flex align-items-center">
+				<!--выравнивание по Bootstrap-->
+				<div class="offer-image"></div>
+				<div class="offer-title">
+					<h3 class="offer-heading">Front-end разработчик</h3>
+					<span class="offer-place">Технопарк, Казань</span>
+				</div>
+				<span class="offer-salary">65 000 P</span>
+				<div class="tags-group">
+					<span class="tegs-label">Требования:</span>
+					<a class="tag" href="#">JavaScript</a>
+					<a class="tag" href="#">Sass</a>
+					<a class="tag" href="#">Figma</a>
+				</div>
+				<a href="#" class="more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center">
+				<!--выравнивание по Bootstrap-->
+				<div class="offer-image"></div>
+				<div class="offer-title">
+					<h3 class="offer-heading">Front-end разработчик</h3>
+					<span class="offer-place">Технопарк, Казань</span>
+				</div>
+				<span class="offer-salary">65 000 P</span>
+				<div class="tags-group">
+					<span class="tegs-label">Требования:</span>
+					<a class="tag" href="#">JavaScript</a>
+					<a class="tag" href="#">Sass</a>
+					<a class="tag" href="#">Figma</a>
+				</div>
+				<a href="#" class="more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center">
+				<!--выравнивание по Bootstrap-->
+				<div class="offer-image"></div>
+				<div class="offer-title">
+					<h3 class="offer-heading">Front-end разработчик</h3>
+					<span class="offer-place">Технопарк, Казань</span>
+				</div>
+				<span class="offer-salary">65 000 P</span>
+				<div class="tags-group">
+					<span class="tegs-label">Требования:</span>
+					<a class="tag" href="#">JavaScript</a>
+					<a class="tag" href="#">Sass</a>
+					<a class="tag" href="#">Figma</a>
+				</div>
+				<a href="#" class="more">Подробнее →</a>
+			</div>
+			<div class="offer d-flex align-items-center">
+				<!--выравнивание по Bootstrap-->
+				<div class="offer-image"></div>
+				<div class="offer-title">
+					<h3 class="offer-heading">Front-end разработчик</h3>
+					<span class="offer-place">Технопарк, Казань</span>
+				</div>
+				<span class="offer-salary">65 000 P</span>
+				<div class="tags-group">
+					<span class="tegs-label">Требования:</span>
+					<a class="tag" href="#">JavaScript</a>
+					<a class="tag" href="#">Sass</a>
+					<a class="tag" href="#">Figma</a>
+				</div>
+				<a href="#" class="more">Подробнее →</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--секция 3 (подпись на рассылку "форма")-->
+	<section class="section subscribe">
+		<div class="container">
+			<form class="subscribe-form ">
+				<h2 class="subscribe-title">Подпишитесь на рассылку с новыми вакансиями</h2>
+				<p class="subscribe-subtitle">Мы отправляем по одному письму в неделю <br> c подходящими вам вакансиями</p>
+				<div class="input-group d-flex">
+					<input class="input" type="text" placeholder="E-mail">
+					<!--кнопка-->
+					<button class="button button-primary">
+						<img class="button-icon" src="img/mail.svg" alt="mail">
+						<span class="button-text">Подпишитесь</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+
+	<!--подвал-->
+	<footer class="footer">
+	<div class="container">
+<div class="row">
+	<div class="col-3">
+	<img src="img/logo.svg" alt="icon" class="footer-logo">
+	<p class="footer-text">Сайт с вакансиями для тех,<br> кто ищет удаленную работу</p>
+	<span class="footer-copyright">© 2021</span>
+	</div>
+	<div class="col-3">
+		<h3 class="foofter-title">Свяжитесь с нами</h3>
+		<ul class="footer-list">
+			<li class="footer-list-item"><a href="tel:8 800 20 20 300" class="footer-list-link">8 800 20 20 300</a>
+			</li>
+			<li class="footer-list-item"><a href="mailto:info@findyourjob.net" class="footer-list-link">info@findyourjob.net</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-3">
+		<h3 class="foofter-title">Информация</h3>
+		<ul class="footer-list">
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Обработка данных</a>
+			</li>
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Конфиденциальность</a>
+			</li>
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Публичная оферта</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-3">
+		<h3 class="foofter-title">Навигация по сайту</h3>
+		<ul class="footer-list">
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Вакансии</a>
+			</li>
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Компании</a>
+			</li>
+			<li class="footer-list-item"><a href="#" class="footer-list-link">Контакты</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</footer>
+
 </body>
 
 </html>
