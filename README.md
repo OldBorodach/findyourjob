@@ -1,4 +1,4 @@
-# findyourjob
+# FindYourJob
 Учебный проект Glo Academy
 Проект выполнил :OldBorodach
 ## Используются технологии:
